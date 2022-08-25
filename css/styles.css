@@ -76,3 +76,11 @@ section text #757575;
 address #ffffff;
 contacts rgba(255, 255, 255, 0.6);
 */
+
+:root {
+    --accent-color: #2196F3;
+    --primary-title-color: #212121;
+    --primary-text-color: #757575;
+    --on-dark-background: #ffffff;
+}
+
