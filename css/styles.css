@@ -84,6 +84,6 @@ contacts rgba(255, 255, 255, 0.6);
     --on-dark-background: #ffffff;
 }
 
-.list-item.current {
+.nav-list .list-item.current {
     color: var(--accent-color);
 }
