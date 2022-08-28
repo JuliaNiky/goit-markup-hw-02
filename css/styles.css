@@ -5,7 +5,9 @@
     border: 0;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -29,18 +31,10 @@ html, body {
     font-size: 100%;
     line-height: 1,2;
     font-size: 14px;
-    -ms-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
 }
 
 button {
     cursor: pointer;
-}
-
-button::-moz-focus-inner {
-    padding: 0;
-    border: 0;
 }
 
 a, a:visited {
@@ -93,7 +87,6 @@ bg dark background: #2F303A;
 
 body {
     position: relative;
-    width: 1600px;
     height: 2346px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -103,7 +96,7 @@ body {
 /* Header */
 header {
     padding: 24px 215px;
-    width: 1170px;
+    width: 1600px;
     height: 80px;
 }
 
@@ -256,6 +249,9 @@ footer {
     font-style: normal;
     color: var(--text-dark-background);
 }
+.address-item:hover, .address-item:focus {
+    color: var(--accent-color);
+}
 
 .email, .phone {
     font-size: 14px;
@@ -275,7 +271,7 @@ footer {
     line-height: 60px;
     text-align: center;
     text-transform: uppercase;
-    color: var(--text-dark-background);
+    color: var(--primary-title-color);
 }
 
 .tab {
