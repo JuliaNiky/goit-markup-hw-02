@@ -103,13 +103,11 @@ header {
 .logo {
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
+    color: var(--accent-color);
 }
 
-.nav-logo {
+.black {
     color: var(--dark-color);
-}
-.blue {
-    color: var(--accent-color);
 }
 
 .list-item {
@@ -238,7 +236,7 @@ footer {
     background-color: var(--dark-background);
 }
 
-.footer-logo {
+.white {
     color: var(--text-dark-background);
 }
 
