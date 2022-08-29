@@ -100,7 +100,7 @@ header {
     height: 80px;
 }
 
-.logo {
+a.logo {
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     color: var(--accent-color);
