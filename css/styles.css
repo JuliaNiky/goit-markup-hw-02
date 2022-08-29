@@ -31,10 +31,12 @@ html, body {
     font-size: 100%;
     line-height: 1,2;
     font-size: 14px;
+    letter-spacing: 0.03em;
 }
 
 button {
     cursor: pointer;
+    font-family: 'Roboto', sans-serif;
 }
 
 a, a:visited {
@@ -87,7 +89,7 @@ bg dark background: #2F303A;
 
 body {
     position: relative;
-    height: 2346px;
+    /*height: 2346px;*/
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     background-color: var(--default-background);
@@ -96,8 +98,8 @@ body {
 /* Header */
 header {
     padding: 24px 215px;
-    width: 1600px;
-    height: 80px;
+    /*width: 1600px;
+    height: 80px;*/
 }
 
 a.logo {
@@ -112,6 +114,8 @@ a.logo {
 
 .list-item {
     font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
     color: var(--primary-title-color);
 }
 
@@ -120,6 +124,8 @@ a.logo {
 }
 .contacts-item {
     font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
 
@@ -135,6 +141,7 @@ a.logo {
 /* Hero */
 .hero {
     height: 600px;
+    align-items: center;
     background-color: var(--dark-background);
 }
 
@@ -143,13 +150,14 @@ a.logo {
     padding-bottom: 30px;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.4;
     text-align: center;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--text-dark-background);
 }
 
-.cta {
+button.cta {
     position: relative;
     display: block;
     margin: 0 auto;
@@ -158,7 +166,8 @@ a.logo {
     text-align: center;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
     color: var(--text-dark-background);
     background-color: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -174,7 +183,6 @@ a.logo {
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
     text-align: center;
     color: var(--primary-title-color);
 }
@@ -182,13 +190,14 @@ a.logo {
 .advantages-subtitle {
     margin-bottom: 10px;
     font-weight: 700;
+    line-height: 1.1;
     text-transform: uppercase;
     color: var(--primary-title-color);
 }
 
 .advantages-text {
     width: 270px;
-    line-height: 24px;
+    line-height: 1.7;
     color: var(--primary-text-color);
 }
 
@@ -199,9 +208,8 @@ a.logo {
 
 /* team */
 .team {
-    height: 648px;
-    padding-top: 94px;
-    padding-bottom: 94px;
+    /*height: 648px;*/
+    padding: 94px 0;
     background-color: var(--light-background);
 }
 
@@ -218,7 +226,6 @@ a.logo {
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
     text-align: center;
     color: var(--primary-title-color);
 }
@@ -241,8 +248,7 @@ footer {
 }
 
 .address {
-    font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     text-decoration: none;
     font-style: normal;
     color: var(--text-dark-background);
@@ -252,9 +258,6 @@ footer {
 }
 
 .email, .phone {
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 
@@ -266,47 +269,48 @@ footer {
 .portfolio-title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.4;
     text-align: center;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--primary-title-color);
 }
 
-.tab {
-    margin-bottom: 50px;
+button.tab {
+    /*margin-bottom: 50px;*/
     height: 38px;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.6;
     text-align: center;
     color: var(--primary-title-color);
     border-radius: 4px;
 }
 
-.tab:hover, .tab:focus {
+button.tab:hover, button.tab:focus {
     color: var(--text-dark-background);
     background-color: var(--accent-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
 }
 
-.all {
+button.all {
     width: 73px;
 }
 
-.web {
+button.web {
     width: 125px;
 }
 
-.app {
+button.app {
     width: 112px;
 }
 
-.design {
+button.design {
     width: 103px;
 }
 
-.marketing {
+button.marketing {
     width: 130px;
 }
 
@@ -324,13 +328,14 @@ footer {
     padding: 20px 24px 4px 24px;
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
+    letter-spacing: 0.06em;
     color: var(--primary-title-color);
 }
 
 .project-filter {
     padding: 0px 24px 20px 24px;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.9;
     color: var(--primary-text-color);
 }
